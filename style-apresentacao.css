@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1c1c1c;
+    height: 50px;
+    color: white;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 9;
+    background-color: #d8d8d8f8;
+    padding: 10px;
+    margin-top: 46px; /* Adicionei este valor para afastar o nav do header */
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #1c1c1c;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    color: white;
+    background-color: rgb(25, 0, 255);
+}
+
+.main {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 70px);
+    padding: 20px;
+    background-color: #f8f8f8;
+    margin-bottom: 50px; /* Adicionei esta linha para criar um espaço entre .main e o footer */
+}
+
+
+
+
+.main h1 {
+    font-size: 25px;
+    color: rgb(0, 68, 255);
+}
+
+.main p {
+    font-size: 18px;
+    color: #000000;
+}
+
+
+footer {
+    background-color: #000000;
+    color: white;
+    font-size: 12px; /* Tamanho da fonte reduzido ainda mais */
+    padding: 1px; /* Espaçamento interno ainda mais reduzido */
+    text-align: center; /* Alinhamento centralizado */
+}
+
+.conteudo {
+    border: solid;
+    border-radius: 22px;
+    border-color: #ffffff;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); /* Adicionei uma sombra mais sutil */
+    max-width: 800px; /* Defina o máximo de largura que deseja para o conteúdo */
+    margin: 0 auto; /* Centraliza o conteúdo na página */
+    padding: 20px; /* Adicionei um espaçamento interno */
+    background-color: #e7e6e6; /* Adicionei uma cor de fundo (opcional) */
+}
+
+.conteudo img {
+    width: 1200px;
+    max-width: 100%;
+    border-radius: 9px;
+    height: 450px; /* Isso garante que a proporção da imagem seja mantida */
+}
+
+
+
+
+ul {
+    list-style: none;
+}
+
+.texto {
+    text-decoration: none;
+    color: rgb(0, 47, 255);
+}
+
+.botao-aproveite {
+    padding: 12px;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(0, 47, 255);
+    border-color: rgb(0, 47, 255);;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+div button:hover{
+    color: #000000;
+    border-color: aqua;
+    background-color: aqua;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}

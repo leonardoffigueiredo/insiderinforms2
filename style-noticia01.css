@@ -1,0 +1,190 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1c1c1c;
+    height: 50px;
+    color: white;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Adicione esta linha */
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 9;
+    background-color: #d3d3d3;;
+    padding: 10px;
+    margin-top: 31px; /* Adicionei este valor para afastar o nav do header */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #1c1c1c;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    color: white;
+    background-color: rgb(25, 0, 255);
+}
+
+.main {
+    
+    min-height: calc(100vh - 70px);
+    padding: 20px;
+    background-color: #f8f8f8;
+    margin-bottom: 50px; /* Adicionei esta linha para criar um espaço entre .main e o footer */
+}
+
+
+
+
+.main h1 {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(0, 68, 255);
+}
+
+
+
+
+footer {
+    background-color: #000000;
+    color: white;
+    font-size: 12px; /* Tamanho da fonte reduzido ainda mais */
+    padding: 1px; /* Espaçamento interno ainda mais reduzido */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.conteudo {
+    border: solid;
+    border-radius: 22px;
+    border-color: #ffffff;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); /* Adicionei uma sombra mais sutil */
+    max-width: 800px; /* Defina o máximo de largura que deseja para o conteúdo */
+    margin:  auto; /* Centraliza o conteúdo na página */
+    padding: 10px; /* Adicionei um espaçamento interno */
+    background-color: #d3d3d3; /* Adicionei uma cor de fundo (opcional) */
+    margin-top: 80px;
+}
+
+.conteudo img {
+    max-width: 100%;
+    border-radius: 9px;
+    height: auto; /* Isso garante que a proporção da imagem seja mantida */
+}
+
+
+
+
+ul {
+    list-style: none;
+}
+
+.texto {
+    text-decoration: none;
+    color: rgb(0, 47, 255);
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+textarea, button {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Adicione essas regras no seu CSS */
+
+#nome {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#novo-comentario {
+    width: calc(100% - 22px); /* Reduz a largura para dar espaço ao botão */
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 50%;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 51%;
+}
+
+/* Adicione essas regras no seu CSS */
+
+#lista-comentarios .comentario {
+    background-color: #e7e6e6;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    width: 50%;
+    margin-left: 450px;
+}
+
+#lista-comentarios .comentario p {
+    margin: 0;
+    align-items: center;
+    text-align: center;
+}
+
+nav, footer {
+    width: 100%; /* Define a largura em relação à largura da viewport (janela do navegador) */
+    left: 0;
+    position: absolute; /* Garante que ocupem toda a largura, independentemente de outros elementos na página */
+}

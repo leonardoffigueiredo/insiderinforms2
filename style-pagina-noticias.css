@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1c1c1c;
+    height: 50px;
+    color: white;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Adicione esta linha */
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 9;
+    background-color: #d8d8d8f8;
+    padding: 10px;
+    margin-top: 46px; /* Adicionei este valor para afastar o nav do header */
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #1c1c1c;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    color: white;
+    background-color: rgb(25, 0, 255);
+}
+
+.main {
+    
+    min-height: calc(100vh - 70px);
+    padding: 20px;
+    background-color: #f8f8f8;
+    margin-bottom: 50px; /* Adicionei esta linha para criar um espaço entre .main e o footer */
+}
+
+
+
+
+.main h1 {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(0, 68, 255);
+}
+
+
+
+
+footer {
+    background-color: #000000;
+    color: white;
+    font-size: 12px; /* Tamanho da fonte reduzido ainda mais */
+    padding: 1px; /* Espaçamento interno ainda mais reduzido */
+    text-align: center; /* Alinhamento centralizado */
+}
+
+.conteudo {
+    border: solid;
+    border-radius: 22px;
+    border-color: #ffffff;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); /* Adicionei uma sombra mais sutil */
+    max-width: 800px; /* Defina o máximo de largura que deseja para o conteúdo */
+    margin: 0 auto; /* Centraliza o conteúdo na página */
+    padding: 20px; /* Adicionei um espaçamento interno */
+    background-color: #e7e6e6; /* Adicionei uma cor de fundo (opcional) */
+}
+
+.conteudo img {
+    width: 30%;
+    max-width: 30%;
+    border-radius: 9px;
+    height: auto;
+    margin-left: auto;
+    margin-right: 0;
+    display: block;
+}
+
+h3 {
+    text-align: left;
+    position: relative;
+    top: 80px; /* ou o valor desejado */
+}
+
+
+
+a {
+    color: black;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color: rgb(25, 0, 255); /* Cor do texto ao passar o mouse */
+    
+    border-radius: 8px; /* Adiciona bordas arredondadas ao passar o mouse */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 01.3); /* Adiciona uma sombra ao texto */
+}
+
+.descricao {
+    font-size: 13px; /* Ajuste o tamanho da fonte conforme preferir */
+    color: #555555; /* Escolha uma cor de texto que se destaque do fundo */
+    margin-top: -56px; /* Adiciona espaço entre o título e a descrição */
+    margin-left: 20px;
+    color: #000000;
+}
+
+.descricao-02 {
+    font-size: 13px; /* Ajuste o tamanho da fonte conforme preferir */
+    color: #555555; /* Escolha uma cor de texto que se destaque do fundo */
+    margin-top: -62px; /* Adiciona espaço entre o título e a descrição */
+    margin-left: 20px;
+    color: #000000;
+}
+
+
+.hora-data {
+    margin-left: 245px;
+    color: #000000;
+}

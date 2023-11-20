@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #1c1c1c;
+    height: 50px;
+    color: white;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Adicione esta linha */
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+    background-color: #d3d3d3;
+    padding: 10px;
+    margin-top: 31px;
+    width: 100vw; /* Utilizando a unidade vw para garantir 100% da largura da tela */
+    box-sizing: border-box;
+    margin-left: -18px;
+}
+
+
+
+
+nav a {
+    text-decoration: none;
+    color: #1c1c1c;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    color: white;
+    background-color: rgb(25, 0, 255);
+}
+
+.main {
+    
+    min-height: calc(100vh - 70px);
+    padding: 20px;
+    background-color: #f8f8f8;
+    margin-bottom: 50px; /* Adicionei esta linha para criar um espaço entre .main e o footer */
+}
+
+
+
+
+.main h1 {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(0, 68, 255);
+}
+
+
+
+
+footer {
+    background-color: #000000;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 20; /* Coloca o footer no final da tela */
+    width: 100%; /* Volta a 100% para ocupar toda a largura da tela */
+    margin-left: -20px;
+}
+
+
+.conteudo {
+    border: solid;
+    border-radius: 22px;
+    border-color: #ffffff;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); /* Adicionei uma sombra mais sutil */
+    max-width: 800px; /* Defina o máximo de largura que deseja para o conteúdo */
+    margin:  auto; /* Centraliza o conteúdo na página */
+    padding: 10px; /* Adicionei um espaçamento interno */
+    background-color: #d3d3d3; /* Adicionei uma cor de fundo (opcional) */
+    margin-top: 80px;
+}
+
+.conteudo img {
+    max-width: 100%;
+    border-radius: 9px;
+    height: auto; /* Isso garante que a proporção da imagem seja mantida */
+}
+
+
+
+
+ul {
+    list-style: none;
+}
+
+.texto {
+    text-decoration: none;
+    color: rgb(0, 47, 255);
+
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+textarea, button {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+   
+}
+
+
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Adicione essas regras no seu CSS */
+
+.bota {
+    max-width: 52%;
+}
+
+textarea {
+    max-width: 53%;
+}
